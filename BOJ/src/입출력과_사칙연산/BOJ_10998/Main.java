@@ -1,4 +1,4 @@
-package BOJ_1330;
+package 입출력과_사칙연산.BOJ_10998;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,16 +8,14 @@ public class Main {
 
 	static int A, B;
 	
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		A = Integer.parseInt(st.nextToken());
-		B = Integer.parseInt(st.nextToken());
+		B = Integer.parseInt(st.nextToken());		
 		
-		if (A > B ) System.out.println(">");
-		else if (A < B ) System.out.println("<");
-		else if (A == B) System.out.println("==");
+		System.out.println(A * B);
 	}
 
 }

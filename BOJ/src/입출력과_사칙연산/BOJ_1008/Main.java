@@ -1,4 +1,4 @@
-package BOJ_10998;
+package 입출력과_사칙연산.BOJ_1008;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -6,16 +6,15 @@ import java.util.StringTokenizer;
 
 public class Main {
 
-	static int A, B;
-	
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		A = Integer.parseInt(st.nextToken());
-		B = Integer.parseInt(st.nextToken());		
+		double a = Double.parseDouble(st.nextToken());
+		double b = Double.parseDouble(st.nextToken());
 		
-		System.out.println(A * B);
+		
+		System.out.println(a/b);
 	}
 
 }

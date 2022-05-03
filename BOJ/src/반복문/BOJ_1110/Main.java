@@ -1,4 +1,4 @@
-package BOJ_1110;
+package 반복문.BOJ_1110;
 
 import java.util.Scanner;
 
